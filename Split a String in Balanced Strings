@@ -1,23 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2021-12-05T10:59:25.337Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="J4S173OVTiY29JC1GjPT" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-05T11:20:45.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="p-ctR1VPMcP7RZLh5gkh" version="15.9.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="324" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="432" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="rPHMEM35aEG_s6ClJFvl-0" value="input = String" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="10" width="120" height="60" as="geometry" />
+          <mxGeometry x="294" y="30" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rPHMEM35aEG_s6ClJFvl-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="220" width="240" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="rPHMEM35aEG_s6ClJFvl-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rPHMEM35aEG_s6ClJFvl-1" target="rPHMEM35aEG_s6ClJFvl-0">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="310" as="sourcePoint" />
-            <mxPoint x="310" y="260" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="170" y="200" width="340" height="340" as="geometry" />
         </mxCell>
         <mxCell id="rPHMEM35aEG_s6ClJFvl-4" value="Output = maxium amount of balanced string" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rPHMEM35aEG_s6ClJFvl-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rPHMEM35aEG_s6ClJFvl-4" target="rPHMEM35aEG_s6ClJFvl-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -25,8 +19,20 @@
             <mxPoint x="300" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rPHMEM35aEG_s6ClJFvl-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="rPHMEM35aEG_s6ClJFvl-6" value="create 3 changeable variables.&lt;br&gt;L= 0&lt;br&gt;R= 0&lt;br&gt;Output = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="220" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rPHMEM35aEG_s6ClJFvl-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.541;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rPHMEM35aEG_s6ClJFvl-1" target="rPHMEM35aEG_s6ClJFvl-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="295" y="180" as="sourcePoint" />
+            <mxPoint x="345" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPHMEM35aEG_s6ClJFvl-9" value="For Loop:&lt;br&gt;if (current letter === L) L++&lt;br&gt;if(current letter === R) R++&lt;br&gt;if(L=== R) Output ++, L= 0 , R=&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="350" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rPHMEM35aEG_s6ClJFvl-10" value="return Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
