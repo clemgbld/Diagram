@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T15:38:46.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Woaa17ysIkr4r7eXpmej" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-18T10:18:55.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="fxMbT2iAZcI8KQaK8EVY" version="20.4.1" type="github" pages="3">
   <diagram id="VnlkdWDD-OTya16-6Z_L" name="Page-1">
-    <mxGraphModel dx="1298" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1227" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,6 +150,27 @@
         </mxCell>
         <mxCell id="nQrAimb7asng9hxnftcy-67" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=none;strokeColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="490" y="150" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XJD_CI6zuUR2ZBToubkx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XJD_CI6zuUR2ZBToubkx-1" target="XJD_CI6zuUR2ZBToubkx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XJD_CI6zuUR2ZBToubkx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XJD_CI6zuUR2ZBToubkx-1" target="XJD_CI6zuUR2ZBToubkx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XJD_CI6zuUR2ZBToubkx-1" value="CreditCrad.jsx" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="190" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XJD_CI6zuUR2ZBToubkx-2" value="index.html&lt;br&gt;systempay script" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XJD_CI6zuUR2ZBToubkx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.444;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XJD_CI6zuUR2ZBToubkx-4" target="XJD_CI6zuUR2ZBToubkx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XJD_CI6zuUR2ZBToubkx-4" value="Props&lt;br&gt;amount:number;&lt;br&gt;amountExclTax:number;&lt;br&gt;paymentGroup:string;&lt;br&gt;recurrentCb:boolean;&lt;br&gt;propspect:object;&lt;br&gt;contractId:number;&lt;br&gt;motiveId:number;&lt;br&gt;comment:string;&lt;br&gt;personId:number;&lt;br&gt;media:string;&lt;br&gt;distributorId:string;&lt;br&gt;saleDevice:string;&lt;br&gt;salesman:string;&lt;br&gt;userId:string;&lt;br&gt;contactId:string;&lt;br&gt;billId:number;&lt;br&gt;billIds:number[];&lt;br&gt;creditsNotes:[]&lt;br&gt;useFallback:boolean;&lt;br&gt;formType:object string;&lt;br&gt;onFormAvailabilityChanges:function;&lt;br&gt;onTokenFetched:function;&lt;br&gt;onSubmitFormAction:function;&lt;br&gt;onCancelAction:function;&lt;br&gt;onFecthTokenFailure:function;&lt;br&gt;isDisabled:boolean" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="320" width="260" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="XJD_CI6zuUR2ZBToubkx-7" value="PaymentService[formType]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="50" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
