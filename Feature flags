@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T06:50:13.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="aHTan_oq3e7RryEi7DkM" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T07:25:34.716Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="nK7KM3G4moUPRqf7tbki" version="20.5.3" type="github">
   <diagram id="S6N8SE_VAMEgYrCNR_vw" name="Page-1">
-    <mxGraphModel dx="1426" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,22 +17,109 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MJZ9afGSttqGz898s_4V-3" value="API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MJZ9afGSttqGz898s_4V-6" target="MJZ9afGSttqGz898s_4V-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MJZ9afGSttqGz898s_4V-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="400" width="340" height="280" as="geometry" />
+          <mxGeometry x="30" y="310" width="410" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="MJZ9afGSttqGz898s_4V-7" value="Project" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="410" width="150" height="70" as="geometry" />
+        <mxCell id="MJZ9afGSttqGz898s_4V-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MJZ9afGSttqGz898s_4V-7" target="MJZ9afGSttqGz898s_4V-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-7" value="Business App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="410" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MJZ9afGSttqGz898s_4V-9" value="Get Feature Flags" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="370" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MJZ9afGSttqGz898s_4V-13" value="UI Feature handler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="360" width="180" height="30" as="geometry" />
+        <mxCell id="MJZ9afGSttqGz898s_4V-13" value="UI Feature Toggle handler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="270" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MJZ9afGSttqGz898s_4V-16" value="&amp;nbsp;Create,Read,Update,Delete Feature Flags" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="450" y="260" width="280" height="30" as="geometry" />
+        <mxCell id="MJZ9afGSttqGz898s_4V-16" value="&amp;nbsp;Create,Read,Update,Delete Feature Flags, Users etc..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="220" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="410" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-20" value="Users" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-21" value="Add Users" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-22" value="Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-24" value="User1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-25" value="Delete User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="470" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-27" value="REST Requests" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-28" value="List of users for which the features of this Project are always enabled" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="550" width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-30" value="Features" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-31" value="Add Feature Flag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="555" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-32" value="ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-33" value="description" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-34" value="status" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-35" value="action" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-36" value="Search by&lt;br&gt;feature ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-37" value="Search By&lt;br&gt;project" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-38" value="Add project" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-39" value="Update&lt;br&gt;Project" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-40" value="Delete&lt;br&gt;Project" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="320" width="56" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-41" value="actions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-42" value="feature-id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="615" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-43" value="feature-desc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="615" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-44" value="switch that disable and enable feature" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="610" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-45" value="delete feature flag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="610" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-46" value="update feature flag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="640" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MJZ9afGSttqGz898s_4V-47" value="Filter out disabled feature&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="530" width="180" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
